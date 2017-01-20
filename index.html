@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/lightbox.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
+	<link rel="stylesheet" type="text/css" href="css/YouTubePopUp.css">
+	
+	<link href="css/photopile.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/pushmenu.css">
+	
+
+
+
+	
+	
+	<link rel="stylesheet" href="css/style.css">
+	<title>front end final exam</title>
+</head>
+<body>
+
+<div class="container">
+<h2 style="color: navy; text-align: center";>Jquery Plugins Exam</h2>
+<!-- owl carousel -->
+<div class="container-fluid">
+	<div class="row" id="owl">
+		<div class="">
+				<h1>Owl Carousel</h1>
+				<br><br><br><br>
+
+				<div class="owl-carousel owl-theme col-xs-12">
+					<div> <img class = "owl-lazy" data-src="images/car.jpg" height="300"></div>
+				 	<div> <img class = "owl-lazy" data-src="images/glass.jpg" height="300"></div>
+				  	<div> <img class = "owl-lazy" data-src="images/kids.jpg"  height="300"></div>
+				  	<div> <img class = "owl-lazy" data-src="images/monk.jpg"  height="300"></div>
+				 	<div> <img class = "owl-lazy" data-src="images/rabbit.jpg" height="300"></div>
+				 	<div> <img class = "owl-lazy" data-src="images/shoe.jpg"  height="300"></div>
+				  	<div> <img class = "owl-lazy" data-src="images/thunder.jpg" height="300"></div>
+
+		
+				</div>
+		</div>			
+	</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<!-- LightBox -->
+
+	<h1>LightBox</h1>
+<div class="container-fluid" id="light_box">
+	<div class="row">
+		<div class="col-md-4">
+
+				<a href="images/car.jpg" data-lightbox="example-set" data-title="My_caption" class="example-image">
+				<img src="images/car.jpg" class="example-image">
+				</a>
+				
+			
+
+		</div>
+
+		<div class="col-md-4">
+		
+			<a href="images/pc4.jpg" data-lightbox="example-set" data-title="My_caption" class="example-image">
+			<img src="images/pc4.jpg" class="example-image" id="work">
+			</a>
+
+			
+
+		
+		</div>
+		<div class="col-md-4">
+		
+			<a href="images/shoe.jpg" data-lightbox="example-set" data-title="My_caption" class="example-image">
+			<img src="images/shoe.jpg" class="example-image">
+			</a>
+				
+			
+
+		
+		</div>
+		<div class="col-md-4">
+		
+			<a href="images/kids.jpg" data-lightbox="example-set" data-title="My_caption" class="example-image">
+			<img src="images/kids.jpg" class="example-image">
+			</a>
+
+			
+
+		
+		</div>
+		<div class="col-md-4">
+			<a href="images/monk.jpg" data-lightbox="example-set" data-title="My_caption" class="example-image">
+			<img src="images/monk.jpg" class="example-image">
+			</a>
+
+
+				
+			
+
+		
+		</div>
+		<div class="col-md-4">
+		
+			<a href="images/pc.jpg" data-lightbox="example-set" data-title="My_caption" class="example-image">
+			<img src="images/pc.jpg" class="example-image img-responsive" id="pc">
+			</a>
+				
+			
+
+		
+		</div>
+
+	</div>
+
+			 
+				
+				
+</div>			
+	
+
+
+<br><br><br><br>
+
+
+<!-- email auto complete -->
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+				<h1>Email Auto Complete</h1>
+				<h3 style="text-align: center">Press the tab-key, or simply click on the suggestion to automatically fill in the rest of the domain. (or tap on the suggestion for mobile users.)</h3>
+				<br><br><br>
+
+				<form class="form-inline">
+					<div class="form-group col-sm-6 col-sm-offset-4">
+						<label for="name_form">Name</label>
+						<input type="text" class="form-control" id="name_form" placeholder="Jane Doe">
+					</div>
+					<div class="form-group col-sm-offset-4 col-md-6">
+						<label for="email">Email</label>
+						<input type="email" class="form-control" id="email" placeholder="jane.doe@example.com">
+					</div>
+					<div class="col-sm-offset-4 col-sm-6"><button type="submit" class="btn btn-primary">Send invitation</button></div>
+				</form>
+
+												
+		</div>			
+	</div>
+</div>
+
+	
+<br>
+<br>
+<br>
+<br>
+<br>
+	<!-- Responsive slides -->
+		<h1>Responsive Slides</h1>
+		<small><p class="lead" style="text-align:center">ResponsiveSlides.js is a tiny jQuery plugin that creates a responsive slider using elements inside a container</p></small>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-2 col-xs-offset-3" id="respon">
+					<ul class="rslides">
+					<li><img src="images/car.jpg" alt=""></li>
+					<li><img src="images/kids.jpg" alt="" ></li>
+					<li><img src="images/glass.jpg"></li>
+					<li><img src="images/monk.jpg"></li>
+					</ul>	
+		
+
+				</div>
+			</div>
+		</div>
+			
+
+<br><br><br>
+<br><br>
+
+
+<!-- jequery counter  -->
+
+<h1>JQUERY COUNTER UP.</h1>
+<h2 style="text-align:center">
+<br><br>
+Animating Numbers Counting Up with jQuery Counter-Up Plugin</h2>
+<br><br><br>
+	<div class="container-fluid" id="counter_up">
+		<div class="row">
+			<div class="col-xs-4 col-md-4">
+				
+				<h2>Number of happy Clients: <br><span class=".integers">133</span></h2>
+			</div>
+				<div class="col-xs-4 col-md-4">
+				
+				<h2>Total Projects: <br><span class=".integers">204</span></h2>
+			</div>
+				<div class="col-xs-4 col-md-4">
+					<h2>Total Money earned: <br><span class=".numbers-with-commas">12,345.00</span></h2>
+				
+				
+			</div>
+		</div>
+	</div>
+<br><br><br><br><br><br>
+
+
+	<div class="container-fluid" id ="youtube">
+		<div class="row">
+			<div class="col-md-12 col-xs-12">
+
+
+				<h1>Lightbox Effect For YouTube </h1>
+				<h2 style="background:#f4fe8a">click the icons to see the effetcs</h2>
+				<br><br>
+
+				<h2>YouTube:</h2><br>
+					<h2><a class="bla-1" href="https://www.youtube.com/watch?v=3qyhgV0Zew0">With Autoplay: <img src="images/youtube.png"></a></h2>
+					<h2><a class="bla-2" href="https://www.youtube.com/watch?v=3qyhgV0Zew0">Without Autoplay: <img src="images/youtube.png"></a></h2>
+					<br><br>
+				<h2>Vimeo:</h2><br>
+					<h2><a class="bla-1" href="https://vimeo.com/81527238">With Autoplay : <img src="images/vimeo.png"></a></h2>
+					<h2><a class="bla-2" href="https://vimeo.com/81527238">Without Autoplay  : <img src="images/vimeo.png"></a></h2>
+			</div>
+
+		</div>
+	</div>
+
+
+<br><br><br><br><br>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 col-xs-12">
+				<h1>PhotoPile</h1>
+				<h3>Photopile JS is a JavaScript/jQuery image gallery that simulates a pile of photos scattered about on a surface. Thumbnail clicks remove photos from the pile, (enlarging them as if being picked up by the user), and once in view a secondary click returns the photo to the pile. Thumbnails are draggable, enhancing the experience by allowing photos buried deep in the pile to be uncovered.</h3>
+				<br><br><br><br><br><br><br>
+				<div class="photopile-wrapper col-xs-12" id="photopile">
+				<ul class="photopile">
+				<li>
+				<a href="images/pc.jpg">
+				<img src="images/pc.jpg" alt="Image description"/>
+				</a>
+				</li>
+				<!-- Add as many list items as you require for your gallery :) -->
+				<li>
+				<a href="images/shoe.jpg">
+				<img src="images/shoe.jpg" alt="Image description" />
+				</a>
+				</li>
+				<li>
+				<a href="images/glass.jpg">
+				<img src="images/glass.jpg" alt="Image description"/>
+				</a>
+				</li>
+				<li>
+				<a href="images/car.jpg">
+				<img src="images/car.jpg" alt="Image description"/>
+				</a>
+				</li>
+				<li>
+				<a href="images/car.jpg">
+				<img src="images/car.jpg" alt="Image description" />
+				</a>
+				</li>
+				<li>
+				<a href="images/shoe.jpg">
+				<img src="images/shoe.jpg" alt="Image description"/>
+				</a>
+				</li>
+				<li>
+				<a href="images/pc4.jpg">
+				<img src="images/pc4.jpg" alt="Image description" width="250" height="150" />
+				</a>
+				</li>
+				<li>
+				<a href="images/pc3.jpg">
+				<img src="images/pc3.jpg" alt="Image description" width="250" height="150" />
+				</a>
+				</li>
+				<li>
+				<a href="images/start.jpg">
+				<img src="images/start.jpg" alt="Image description" width="250" height="150" />
+				</a>
+				</li>
+				</ul>
+				</div>
+								
+
+			</div>
+		</div>
+	</div>
+<br><br><br><br><br><br><br><br><br>
+
+
+	
+		<!-- push menu -->
+
+				
+				
+			<div class="container-fluid" id="push_menu">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Push Menu from left</h1>
+						<br><br>
+
+    					<div id="pm_menu" class="pm_close">
+    					<div class="col-xs-6">
+							<a href="http://www.jqueryscript.net/tags.php?/Navigation/" class="col-xs-10"><h2 style="color: white;">Navigation</h2></a>
+							<h2 style="color:white;">Menu 1</h2>
+							<h2 style="color:white";> Menu 2</h2>
+							<h2 style="color:white;"">Menu 3</h2>
+						</div>
+						</div>
+							<br><br><br><br><br><br>
+							<h2>Push Menu is a very small (~2kb unminified) jQuery plugin used to create an Android style navigation drawer (also known as off-canvas menu) that slides in from the left side of the webpage.</h2>
+							<br><br><br><br><br>
+						<button id="open" class="btn btn-primary btn-lg">Open Menu</button>
+
+
+						
+					</div>
+				</div>
+			</div>
+
+			<!-- parallax -->
+			<hr>
+	<br><br><br><br><br>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+			<h1>Parallax js</h1>
+			<br>
+			<div class="parallax-window" data-parallax="scroll" data-image-src="images/stardust.jpg"></div>
+			<div class="parallax-window" data-parallax="scroll" data-image-src="images/pc.jpg"></div>
+			</div>
+		</div>
+	</div>
+	
+	<br><br><br><br>
+
+</div>
+		
+
+
+
+
+
+	<script src="js/jquery-3.1.1.slim.min.js"></script>
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="js/lightbox.js"></script> -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.email-autocomplete.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    
+
+
+    
+	<script
+	  src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+	  integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+	  crossorigin="anonymous">
+	  	
+	</script>
+
+	<script src="js/responsiveslides.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="js/YouTubePopUp.jquery.js"></script>
+	<script src="js/photopile.js"></script>
+	<script src="js/pushmenu.js"></script>
+	
+
+
+	<script src = "js/script.js"></script>
+</body>
+</html>  

@@ -1,0 +1,64 @@
+h1 {
+	text-align: center;
+	background-color: #f40d64;
+	color: white;
+}
+
+span.eac-sugg {
+	display: hidden;
+}
+#email {
+	width: 350px;
+}
+
+#name_form {
+	width: 350px;
+}
+
+
+#respon img {
+	width: 67%;
+}
+
+#owl img {
+width: 100%;
+}
+
+#light_box img {
+width: 100%;
+margin: 2px;
+height: 10%;
+}
+
+#work {
+	/*width:250px !important;*/
+	height: 210px !important;*/
+}
+
+#counter_up span , #counter_up h2{
+	font-size: 30px !important;
+	font-weight: bolder;
+	background-color: #bac88c;
+}
+
+#youtube h2 {
+	text-align: center;
+
+}
+
+#youtube img {
+	width: 150px;
+}
+
+#photopile img {
+	width: 300px;
+}
+
+#photopile{
+background-color: yellow;
+}
+
+.parallax-window {
+    min-height: 550px;
+    background: transparent;
+}
